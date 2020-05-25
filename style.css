@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif; 
+	font-weight: 400;
+	background: #159957 !important;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #155799, #159957) !important;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #155799, #159957) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+	background: #cb2d3e !important;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom right, #ef473a, #cb2d3e) !important;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom right, #ef473a, #cb2d3e) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.styleLink{
+	text-decoration: none;
+	color: white;
+}
+.styleLink:hover{
+	text-decoration: none;
+	color: #4cd137 !important;
+}
+.styleLink:active, .styleLink:visited{
+	color: #fbc531;
+}
+i.h4{
+	font-size: 2em;
+	color: white ;
+}
+.list-group li{
+	text-decoration: none;
+	list-style-type: none;
+}
+.list-group li a{
+	color: white;
+}
+.list-group li a:hover{
+	text-decoration: none;
+}
+._commonDivs:hover{
+	background-color: white !important;
+	color: #155799 !important;
+	border: 1px solid #007BFF !important;
+	border-radius: 20px; 
+}
+#_pageheading:hover{
+	color: #f1c40f !important;
+}
+#_ul:hover{
+	color: #3B3B98 !important;
+}
+#_cta:hover{
+	color: #3498db !important;
+}
+#_links:hover{
+	color: #C4E538 !important;
+}
+#_badges:hover{
+	color: #009432 !important;
+}
+#_socialMedia:hover{
+	color: #FFC312 !important;
+}
+#_images:hover{
+	color: #25CCF7 !important;
+}
+._codeUsed{
+	font-size: 20px;
+	color: white;
+	text-decoration-line: overline; 
+}
+.fa-hand-point-up{
+	font-size: 25px;
+}
+.__changebg:hover{
+	background-color: white !important;
+	cursor: pointer;
+}
+.__changebg:hover > h5{
+	color: black !important;
+}

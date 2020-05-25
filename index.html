@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" description="sandarbhTiwari">
+	<title>Animate.css Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- animate.css cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<!-- fontawesome kit .js file -->
+	<script src="https://kit.fontawesome.com/f4d435869e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container text-white my-4 py-3">
+		<!-- animated heading -->
+		<div class="h2 text-center animate__animated animate__bounce" id="#heading">Welcome to Animate.css Examples</div>
+		<!-- animated paragraph tag -->
+		<p class="h3 text-center my-2 py-1 animate__animated animate__slideInRight">Yesterday, i came across a library which makes it easier for people like me for whom it is difficult to design and make a good user-interface for our students or our clients or even for our own personal projects. So, then <a href="https://animate.style/" target="_blank" class="styleLink">Animate.css</a> makes it easy and fun for us to make our content interactive with the help of predefined animations.</p>
+		<p class="h5 my-2 py-1">So, i have used this css library just for practice and had tried to animate some elements and divs. Here you go. Feel free to share your valuable ideas and comments. Enjoy article. <span><i class="fas fa-grin-beam"></i></span> <span><i class="fas fa-hand-point-down"></i></span> </p>
+		<p class="h5 my-2 py-1"> Items which we can animate are such as buttons specifically CTA's one in order to get customers attention, links which takes us to another important page may be a product page of a site or we can animate a badge given to every product present on the product page. So let us use some animations by applying them onto the different elements.</p>
+		<!-- other animated items and elements starts here -->
+		<p>Here are some examples of the animations that i have applied on some elements:-</p>
+		<div class="my-3 border border-primary rounded-pill _commonDivs">
+			<h4 class="h4 text-center py-2">List of Animated Items</h4>
+		</div>
+		<!-- animated link group -->
+		<div class="my-3 border border-primary rounded-pill _commonDivs">
+			<h4 class="h4 text-left mx-3 py-2">2. List of Animated Links</h4>
+		</div>
+		<p class="lead mx-2">You can use these links to navigate to different sections of the page!</p>
+		<ul class="list-group mx-4" id="#ul_list">
+			<li class="animate__animated animate__fadeInLeft"><a href="#heading" id="_pageheading">Animated Heading Of the Page</a></li>
+			<li class="animate__animated animate__fadeInLeft"><a href="#ul_list" id="_ul">Animated Unordered list</a></li>
+			<li class="animate__animated animate__fadeInLeft"><a href="#ctabtn" id="_cta">Animated CTA Button</a></li>
+			<li class="animate__animated animate__fadeInLeft"><a href="#links" id="_links">Animated links</a></li>
+			<li class="animate__animated animate__fadeInLeft"><a href="#product_badge" id="_badges">Animated Product Badges</a></li>
+			<li class="animate__animated animate__fadeInLeft"><a href="#ssicons" id="_socialMedia">Animated Social Media Icon</a></li>
+			<li class="animate__animated animate__fadeInLeft"><a href="#images" id="_images">Animated Image Gallery</a></li>
+		</ul>
+		<p class="text-white">On the above <i class="fas fa-hand-point-up"></i> unordered list i have applied <span><code class="_codeUsed">class="animate__animated animate__fadeInLeft"</code></span> to get the resulting animation on the list above.</p>
+		<!-- animated button group -->
+		<div class="my-3 border border-primary rounded-pill _commonDivs">
+			<h4 class="h4 text-left mx-3 py-2">3. List of Animated Buttons</h4>
+		</div>
+		<!-- for my button groups i am going to use bootstrap grid system so that i can make separate section for every button and its animation does not get very messy -->
+		<p class="lead">For my Button groups i am going to use bootstrap grid system so that i can make separate section for every button...and these buttons will not take you anywhere!!</p>
+		<!-- row 1 having two buttons -->
+		<div class="row">
+			<!-- column 1 having button1 -->
+			<div class="col-md-6 col-sm-12">
+				<div class="my-2 px-1 py-4 border border-warning rounded __changebg">
+					<h5 class="h5 pb-2 text-center">CTA Button 1</h5>
+					<button class="btn btn-outline-primary btn-block animate__animated animate__shakeY">Call To Action Button 1</button>
+				</div>
+			</div>
+			<!-- column 2 having button2 -->
+			<div class="col-md-6 col-sm-12">
+				<div class="my-2 px-1 py-4 border border-primary rounded __changebg">
+					<h5 class="h5 pb-2 text-center">CTA Button 2</h5>
+					<button class="btn btn-outline-warning btn-block animate__animated animate__shakeY">Call To Action Button 2</button>
+				</div>
+			</div>
+		<!-- row ends here -->
+		</div>
+		<!-- animated badges -->
+		<!-- animated social media icons -->
+		<!-- animated images -->
+	</div>
+	<!-- bootstrap js, jquery and pper.js -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
