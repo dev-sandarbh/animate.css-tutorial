@@ -59,14 +59,8 @@ i.h4{
 #_links:hover{
 	color: #C4E538 !important;
 }
-#_badges:hover{
-	color: #009432 !important;
-}
 #_socialMedia:hover{
 	color: #FFC312 !important;
-}
-#_images:hover{
-	color: #25CCF7 !important;
 }
 ._codeUsed{
 	font-size: 20px;
@@ -82,4 +76,29 @@ i.h4{
 }
 .__changebg:hover > h5{
 	color: black !important;
+}
+.social{
+	font-size: 35px;
+	margin-left: 43% !important;
+}
+#__fbHeading:hover{
+	background-color: #3b5998 !important;
+}
+#__instaHeading:hover{
+	background: -webkit-linear-gradient(to top right, #fcaf45, #f77737, #fd1d1d, #e1306c, #c13584) !important;
+	background: linear-gradient(to top right, #fcaf45, #f77737, #fd1d1d, #e1306c, #c13584) !important;
+}
+#__twitterHeading:hover{
+	background-color: #1da1f2 !important;
+}
+#__utubeHeading:hover{
+	background-color: #ff0000 !important;
+}
+#__bgContainer2{
+	background: #642B73 !important;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #C6426E, #642B73) !important;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #C6426E, #642B73) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fa-meh-rolling-eyes{
+	font-size: 30px;
 }

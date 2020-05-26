@@ -35,9 +35,7 @@
 			<li class="animate__animated animate__fadeInLeft"><a href="#ul_list" id="_ul">Animated Unordered list</a></li>
 			<li class="animate__animated animate__fadeInLeft"><a href="#ctabtn" id="_cta">Animated CTA Button</a></li>
 			<li class="animate__animated animate__fadeInLeft"><a href="#links" id="_links">Animated links</a></li>
-			<li class="animate__animated animate__fadeInLeft"><a href="#product_badge" id="_badges">Animated Product Badges</a></li>
 			<li class="animate__animated animate__fadeInLeft"><a href="#ssicons" id="_socialMedia">Animated Social Media Icon</a></li>
-			<li class="animate__animated animate__fadeInLeft"><a href="#images" id="_images">Animated Image Gallery</a></li>
 		</ul>
 		<p class="text-white">On the above <i class="fas fa-hand-point-up"></i> unordered list i have applied <span><code class="_codeUsed">class="animate__animated animate__fadeInLeft"</code></span> to get the resulting animation on the list above.</p>
 		<!-- animated button group -->
@@ -64,9 +62,63 @@
 			</div>
 		<!-- row ends here -->
 		</div>
-		<!-- animated badges -->
+		<p class="text-white">On the above <i class="fas fa-hand-point-up"></i> CTA Buttons, I have applied <span><code class="_codeUsed">class="animate__animated animate__shakeY"</code></span> to get the resulting animation.</p>
+		<!-- animated soccial media icons section stars here -->
+		<div class="my-3 border border-primary rounded-pill _commonDivs">
+			<h4 class="h4 text-left mx-3 py-2">4. List of Animated Social Media Icons</h4>
+		</div>
+		<p class="lead">For social media icons, i am going to use bootstrap grid system so that i can make separate section for every social media icons.</p>
 		<!-- animated social media icons -->
-		<!-- animated images -->
+		<div class="row">
+			<!-- columns having fb, insta, twitter, youtube icons -->
+			<div class="col-sm-12 col-md-6 col-lg-3">
+				<!-- on small screen every icon will take 12 columns, on medium screen every icon will take 6 columns, on large screen every icon will take 3 columns,  -->
+				<div class="my-2 px-1 py-4 border border-light rounded animate__animated animate__fadeInLeftBig" id="__fbHeading">
+					<h5 class="h5 pb-2 text-center">Facebook</h5>
+					<span class="my-1 py-1"><i class="fab fa-facebook-square social"></i></span>
+				</div>
+				<!-- column 1 ends here -->
+			</div>
+			<!-- column 2 starts here -->
+			<div class="col-sm-12 col-md-6 col-lg-3">
+				<div class="my-2 px-1 py-4 border border-light rounded animate__animated animate__fadeInDownBig" id="__instaHeading">
+					<h5 class="h5 pb-2 text-center">Instagram</h5>
+					<span class="my-1 py-1"><i class="fab fa-instagram social"></i></span>
+				</div>
+			</div>
+			<!-- column 3 starts here -->
+			<div class="col-sm-12 col-md-6 col-lg-3">
+				<div class="my-2 px-1 py-4 border border-light rounded animate__animated animate__fadeInUpBig" id="__twitterHeading">
+					<h5 class="h5 pb-2 text-center">Twitter</h5>
+					<span class="my-1 py-1"><i class="fab fa-twitter social"></i></span>
+				</div>
+			</div>
+			<!-- column 4 starts here -->
+			<div class="col-sm-12 col-md-6 col-lg-3">
+				<div class="my-2 px-1 py-4 border border-light rounded animate__animated animate__fadeInRightBig" id="__utubeHeading">
+					<h5 class="h5 pb-2 text-center">YouTube</h5>
+					<span class="my-1 py-1"><i class="fab fa-youtube social"></i></span>
+				</div>
+			</div>
+		<!-- row ends here -->
+		</div>
+		<p class="text-white">On the above <i class="fas fa-hand-point-up"></i> Social Media Icons Group, I have applied various animations to get the resulting animation.</p>
+		<p class="text-white">1. Code For Facebook Animation is <span><code class="_codeUsed">class="animate__animated animate__fadeInLeftBig"</code></span>.</p>
+		<p class="text-white">2. Code For Instagram Animation is <span><code class="_codeUsed">class="animate__animated animate__fadeInDownBig"</code></span>.</p>
+		<p class="text-white">3. Code For Twitter Animation is <span><code class="_codeUsed">class="animate__animated animate__fadeInUpBig"</code></span>.</p>
+		<p class="text-white">4. Code For YouTube Animation is <span><code class="_codeUsed">class="animate__animated animate__fadeInRightBig"</code></span>.</p>
+	</div>
+	<div class="container my-5 py-3" id="__bgContainer2">
+		<h4 class="h4 text-center text-white">My Experience with Animate.css</h4>
+		<p class="lead my-2 py-2 text-white">I really enjoyed using this free css library.But in my opinion it has some limitations as well....And those limitations are:- </p>
+		<ol class="mx-3 text-white">
+			<li>Every animation occurs only when page reloads and i think you won't love to load a webpage everytime just to see that animation....I mean who does that?<span><i class="fas fa-meh-rolling-eyes"></i></span></li>
+			<li>Since every animation loads only once when page loads so you won't be able to see elements which are at the bottom of the page; so no point in using animations for those elements.</li>
+			<li>Also, it is not good to give every element an infinite animation-duration just to see all the animations applied to all elements. It is frivolous!!!</li>
+			<li>Moreover it has pre-defined animations which you would have to use. What if you want to have animation of your own? Then DIY it.</li>
+			<li>Also if you are using only one or two animations, then it is not a good choice to load a 97KB file everytime.</li>
+		</ol>
+		<p class="lead my-2 py-2 text-white">So, if you want custom animations and flexibility at your will, you need write your own code/styles for that. And i think that is the best option as well.But it is good for getting hands dirty with CSS-Animations for stating. So go ahead and start writing your own code.</p>
 	</div>
 	<!-- bootstrap js, jquery and pper.js -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
